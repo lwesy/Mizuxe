@@ -39,3 +39,22 @@ body {
 .info-header {
   border-bottom: 1px solid #ddd;
 }
+
+#authors {
+  img {
+    margin-top: -50px;
+  }
+
+  .fa {
+    font-size: 25px;
+  }
+
+  .card:hover {
+    background-color: $primary;
+    color: #fff;
+
+    .fa {
+      color: #fff;      
+    }
+  }
+}
